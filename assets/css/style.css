@@ -1,0 +1,169 @@
+.whole {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*background:gray;*/
+    width: 37%;
+    margin: 12% auto;
+    padding: 30px;
+    border:2px solid red;
+    border-radius: 20px;
+}
+.log {
+  width: 500px
+}
+.allbtn {
+  width: 500px;
+    margin-left: 300px;
+}
+.container-dashboard {
+  float: left;
+  height: 617px;
+  width: 250px;
+  background-color: #999;
+  display: inline-block;
+}
+.container-manage {
+  display: flex;
+  /*flex-direction: column;*/
+}
+.register {
+  width: 50%;
+  background:gray;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  margin:0 auto 20px auto;
+}
+
+.sidebar-menu{
+  float: left;
+  height: 330px;
+  width: 250px;
+  background: #76b2c8;
+  display: inline-block;
+  margin-right: 20px;
+}
+.sidebar-menu ul li, .logout{
+  
+  letter-spacing: 2px;
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px 20px 30px 0;
+ 
+}
+
+.sidebar-menu ul li a, .logout {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 5px;
+  background-color: #2828ae;
+}
+
+.logout:hover, .sidebar-menu ul li a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+
+.manage-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.form-group {
+  margin:10px;
+}
+.manage-label {
+  font-size: 20px;
+}
+.manage-btn {
+  border:none;
+  padding: 10px;
+  font-size: .90rem;
+  border-radius: 5px;
+}
+.manage-input {
+  width: 84%;
+  height: 30px;
+  display: block;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.manage {
+  margin-left: 54px;
+}
+.select {
+  background: #007bff;
+  color: #fff;
+  border-color: #007bff; 
+}
+.submit {
+  background:#dc3545;
+  color: #fff;
+  border-color: #dc3545;
+  float: right;
+    margin: 0 100px 30px 0;
+}
+.register h1 {
+  color: #17a2b8;
+}
+.manage-btnedit {
+  background:orange;
+  color: #fff;
+  border-color: orange;
+  border:none;
+  margin-right: 2px;
+  font-size: 20px;
+}
+.manage-btndelete {
+  background:#dc3545;
+  color: #fff;
+  border-color: #dc3545;
+  border:none;
+  font-size: 20px;
+}
+.manage-table, .manage-td {
+  border: 1px solid #ddd;
+}
+.manage-td {
+  padding: 15px;
+}
+.manage-table {
+border-collapse: collapse;
+font-size: 20px;
+}
+.td-color {
+  background-color: blue;
+  color:#fff;
+}
+.index-form {
+  margin-top: 10px;
+}
+.logout {
+  border:none;
+
+}
+
+.all {
+  background:black;
+  border-radius: 10px;
+  color: #fff;
+}
+.orange {
+  background:orange;
+   border-radius: 10px;
+   color:#000;
+}
+.header-dashboard {
+  .font-size: 40px;
+}
